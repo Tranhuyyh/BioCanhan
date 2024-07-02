@@ -342,40 +342,25 @@ text-shadow: 2px 2px blue;
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
-
 @media (max-width: 768px) {
-    .page-title {
-      font-size: 20px;
-    }
-
-    .page-bioline {
-      font-size: 14px;
+    .page-full-wrap {
+        width: 80%; /* Giảm chiều rộng của nội dung trên màn hình nhỏ hơn */
     }
 
     .display-image {
-      max-width: 150px;
+        width: 150px; /* Điều chỉnh kích thước hình ảnh avatar trên điện thoại */
+        height: 150px;
     }
 
-    .glow-on-hover {
-      font-size: 14px;
-    }
-  }
-
-  @media (max-width: 480px) {
     .page-title {
-      font-size: 18px;
+        font-size: 20px; /* Giảm kích thước tiêu đề trang trên điện thoại */
     }
 
     .page-bioline {
-      font-size: 12px;
+        font-size: 14px; /* Giảm kích thước dòng chữ mô tả trên điện thoại */
     }
 
-    .display-image {
-      max-width: 120px;
+    .page-item-each {
+        font-size: 14px; /* Giảm kích thước chữ cho các liên kết trên điện thoại */
     }
-
-    .glow-on-hover {
-      font-size: 12px;
-      padding: 8px 16px;
-    }
-  }
+}
