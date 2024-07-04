@@ -81,11 +81,7 @@ body {
 .text-fs-16 {
     font-size: 16px;
 }
-.Blob { 
 
- 
-
-}
 .page-overlay {
     background: rgba(0, 0, 0, 0.1);
     -webkit-backdrop-filter: blur(45px);
@@ -107,8 +103,8 @@ body {
 }
 
 .display-image {
-    width: 96px;
-    height: 96px;
+    width: 200px;
+    height: 200px;
     display: block;
     border-radius: 50%;
 }
@@ -122,7 +118,10 @@ body {
 }
 
 .page-bioline {
+    font-size: 20px;
     font-weight: 500;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .page-full-wrap {
@@ -229,15 +228,15 @@ body {
     background: #292929;
 }
 
-.page-title {
-    font-size: 18px;
+/* .page-title {
+    font-size: 42px;
     font-weight: 700;
 }
 
 .page-bioline {
     font-size: 16px;
     font-weight: 500;
-}
+} */
 
 .page-item-title {
     font-size: 16px;
@@ -247,7 +246,7 @@ body {
 .page-item-each {
     color: #ffffff;
     font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-size: 40px;
     font-weight: 400;
     border-radius: 8px;
 }
@@ -257,8 +256,8 @@ body {
     background: #3a3a3d;
     border-radius: 8px;
     box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24, 39, 75, 0.1), inset 0px 0px 2px 1px rgba(255, 255, 255, 0.05);
-    height: 60px;
-    margin-top: 16px;
+    height: 100px;
+    margin-top: 20px;
 }
 
 .link-each-image, .embed-wrap iframe, .page-item-wrap {
@@ -278,8 +277,8 @@ body {
 }
 
 .glow-on-hover {
-    width: 150px;
-    height: 50px;
+    width: 180px;
+    height: 60px;
     border: none;
     outline: none;
     color: #fff;
@@ -289,9 +288,44 @@ body {
     z-index: 0;
     border-radius: 10px;
 text-shadow: 2px 2px blue;
+font-size: 20px;
 
 }
-
+.img-github{
+    width: 100px;
+    height: 50px;
+    margin-left: -80px;
+}
+.img-facebook{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.img-ins{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.img-thread{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: -50px;
+}
+.img-zalo{
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    margin-left: -90px;
+}
+.img-youtube{
+    width: 64px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: -20px;
+    background-color: white;
+    border-radius: 60px;
+}
 .glow-on-hover:before {
     content: '';
 
@@ -341,26 +375,4 @@ text-shadow: 2px 2px blue;
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
-}
-@media (max-width: 768px) {
-    .page-full-wrap {
-        width: 80%; /* Giảm chiều rộng của nội dung trên màn hình nhỏ hơn */
-    }
-
-    .display-image {
-        width: 150px; /* Điều chỉnh kích thước hình ảnh avatar trên điện thoại */
-        height: 150px;
-    }
-
-    .page-title {
-        font-size: 20px; /* Giảm kích thước tiêu đề trang trên điện thoại */
-    }
-
-    .page-bioline {
-        font-size: 14px; /* Giảm kích thước dòng chữ mô tả trên điện thoại */
-    }
-
-    .page-item-each {
-        font-size: 14px; /* Giảm kích thước chữ cho các liên kết trên điện thoại */
-    }
 }
